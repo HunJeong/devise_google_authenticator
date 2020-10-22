@@ -3,6 +3,5 @@ module DeviseGoogleAuthenticator
 	ActiveSupport::Reloader.to_prepare do
       DeviseGoogleAuthenticator::Patches.apply
     end
-
   end
 end
